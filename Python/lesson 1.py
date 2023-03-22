@@ -1,11 +1,6 @@
 # print(type(1/2))
 
-name = 'Saeed'
-age = 36
+your_name = input('What is  your name ?')
+user_password = input('What is your passoword ?')
 
-print ( 'hi ' + name + '. Your are '+ str(age) + ' years old')
-
-print (f' hi  {name}  . Your are {age}   years old')
-
-
-
+print(f'{your_name} , your passowrd is {len(user_password)} characters long')
