@@ -1,6 +1,8 @@
 # print(type(1/2))
 
-your_name = input('What is  your name ?')
-user_password = input('What is your passoword ?')
-
-print(f'{your_name} , your passowrd is {len(user_password)} characters long')
+amazon_cart = ['Notebooks',
+               'pen',
+               'toys',
+               'prapes'
+               ]
+print(amazon_cart[0:2:1])
