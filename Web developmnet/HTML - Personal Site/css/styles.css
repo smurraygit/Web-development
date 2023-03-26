@@ -11,10 +11,15 @@ hr{
 h1 {
     
     color:#66bfbf;
+
     
   }
 
   h3 {
     
     color:#66bfbf;
+  }
+
+  h1:hover{
+    background-color: white;
   }
