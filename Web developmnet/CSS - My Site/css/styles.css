@@ -1,18 +1,25 @@
 
 
-h1 {
-  
-    margin: 0px;
-}
+
 
 body {
    
     margin: 0px;
+    text-align: center;
+    font-family: verdana,sans-serif;
 }
+
+h1 {
+  
+    margin-top: 0;
+     
+ }
 
 
 .top-container {
     background-color: #badcdf;    
+    position: relative;
+    padding-top: 100px;
         
 
 }
@@ -22,6 +29,7 @@ body {
     height: 200px;
     padding: 20px;
     width: 200px;
+    
 
 }
 
@@ -37,3 +45,15 @@ body {
     text-decoration: underline;
 }
 
+.bottom-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.top-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 50px;
+    
+}
