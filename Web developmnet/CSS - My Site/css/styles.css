@@ -52,6 +52,20 @@ h1 {
     
 }
 
+.skill-row{
+  margin-top: 100px auto 100px auto; 
+  margin: auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+  
+}
+
+.skill-image {
+  width: 25%;
+
+}
+
 .web {
     text-decoration: underline;
 }
