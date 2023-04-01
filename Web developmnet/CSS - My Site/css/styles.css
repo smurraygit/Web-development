@@ -41,29 +41,39 @@ h1 {
 
 }
 
-.middle-container {
-
-       
-
-}
-
-.bottom-container {
-
-    
-}
-
 .skill-row{
   margin-top: 100px auto 100px auto; 
   margin: auto;
   width: 50%;
   text-align: left;
-  line-height: 2;
+  line-height: 2;  
   
 }
 
 .skill-image {
   width: 25%;
+  float: left;
+  margin-right: 30px;
 
+}
+
+.skill-rowb{
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-top: 100px auto 100px auto; 
+  margin: auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;  
+  
+}
+
+
+.skill-imageb {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  
 }
 
 .web {
@@ -91,3 +101,58 @@ h1 {
       a{
         color: #11999E;
       }
+
+      .contact-me{
+        padding-top: 10px;
+        padding-bottom: 50px;
+        margin-top: 100px auto 100px auto; 
+        margin: auto;
+        width: 50%;
+        
+      }
+      
+
+
+      .btn {
+        background: #3498db;
+        background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+        background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+        background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+        background-image: -o-linear-gradient(top, #3498db, #2980b9);
+        background-image: linear-gradient(to bottom, #3498db, #2980b9);
+        -webkit-border-radius: 10;
+        -moz-border-radius: 10;
+        border-radius: 10px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 27px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+      }
+      
+      .btn:hover {
+        background: #3cb0fd;
+        background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+        text-decoration: none;
+      }
+
+      .bottom-container {
+        background-color: #66BFBF;    
+        position: relative;
+        padding-top: 50px;
+        padding-bottom: 50px;
+            
+    
+    }
+
+    .dots-line {
+      border: 10px dotted #EAF6F6;
+      border-style: none none dotted; 
+      color: #fff; 
+      background-color: #fff;
+      width: 10%;
+  }
