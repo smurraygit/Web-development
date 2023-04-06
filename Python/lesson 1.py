@@ -5,4 +5,6 @@ amazon_cart = ['Notebooks',
                'toys',
                'prapes'
                ]
-print(amazon_cart[0:2:1])
+
+New_list = amazon_cart.insert(3,'shoes')
+print(amazon_cart)
