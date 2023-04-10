@@ -1,10 +1,6 @@
-# print(type(1/2))
-
-amazon_cart = ['Notebooks',
-               'pen',
-               'toys',
-               'prapes'
-               ]
-
-New_list = amazon_cart.insert(3,'shoes')
-print(amazon_cart)
+i=0
+while i<50:
+    print(i)
+    i=i+5
+else:
+    print('done')
